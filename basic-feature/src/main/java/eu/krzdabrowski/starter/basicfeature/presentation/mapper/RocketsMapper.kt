@@ -11,9 +11,10 @@ fun Rocket.toPresentationModel() = RocketDisplayable(
     id = id,
     name = name,
     costPerLaunchInMillions = costPerLaunch / MILLION,
-    firstFlightDate = firstFlight.format(DateTimeFormatter.ISO_LOCAL_DATE),
+    firstFlightDate = firstFlight.format(DateTimeFormatter.ofPattern("d MMMM yyyy")), // 3 June 2024
     heightInMeters = height,
     weightInTonnes = weight / TONNE,
     wikiUrl = wikiUrl,
     imageUrl = imageUrl,
+    country = country
 )

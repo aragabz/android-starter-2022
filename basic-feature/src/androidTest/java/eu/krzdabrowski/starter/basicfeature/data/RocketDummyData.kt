@@ -14,6 +14,7 @@ internal fun generateTestRocketsFromPresentation() = listOf(
         weightInTonnes = 30,
         wikiUrl = "https://testrocket.com",
         imageUrl = "",
+        country = "Egypt"
     ),
     RocketDisplayable(
         id = "2",
@@ -24,6 +25,7 @@ internal fun generateTestRocketsFromPresentation() = listOf(
         weightInTonnes = 50,
         wikiUrl = "https://testrocket.com",
         imageUrl = "",
+        country = "United States"
     ),
     RocketDisplayable(
         id = "3",
@@ -34,6 +36,7 @@ internal fun generateTestRocketsFromPresentation() = listOf(
         weightInTonnes = 70,
         wikiUrl = "https://testrocket.com",
         imageUrl = "",
+        country = "Poland"
     ),
 )
 
@@ -47,6 +50,7 @@ internal fun generateTestRocketsFromDomain() = listOf(
         weight = 30_000,
         wikiUrl = "https://testrocket.com",
         imageUrl = "https://testrocket.com/1.jpg",
+        country = "Egypt"
     ),
     Rocket(
         id = "2",
@@ -57,6 +61,7 @@ internal fun generateTestRocketsFromDomain() = listOf(
         weight = 50_000,
         wikiUrl = "https://testrocket.com",
         imageUrl = "https://testrocket.com/2.jpg",
+        country = "United States"
     ),
     Rocket(
         id = "3",
@@ -67,5 +72,6 @@ internal fun generateTestRocketsFromDomain() = listOf(
         weight = 70_000,
         wikiUrl = "https://testrocket.com",
         imageUrl = "https://testrocket.com/3.jpg",
+        country = "Australia"
     ),
 )

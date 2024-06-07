@@ -41,7 +41,13 @@ fun RocketItem(
                 text = rocket.name,
                 style = Typography.titleMedium,
             )
-
+            Text(
+                text = stringResource(
+                    id = R.string.rocket_country,
+                    rocket.country,
+                ),
+                style = Typography.bodyMedium,
+            )
             Text(
                 text = stringResource(
                     id = R.string.rocket_cost_per_launch,
